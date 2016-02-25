@@ -1,0 +1,5 @@
+wstore:
+    restart: always
+    image: fiware/wstore
+    ports:
+        - 8000:8000
